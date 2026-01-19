@@ -13,7 +13,7 @@ const employees = [
     tasks: [
       {
         title: "Design Landing Page",
-        description: "Create UI for the main landing page",
+        description: "Design Home Page UI",
         date: "2026-01-10",
         category: "Design",
         active: true,
