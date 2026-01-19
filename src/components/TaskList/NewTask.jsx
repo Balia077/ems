@@ -2,7 +2,7 @@ import React from 'react'
 
 const NewTask = () => {
   return (
-    <div className='shrink-0 h-full w-[300px] p-5 bg-green-400 rounded-xl'>
+    <div className='shrink-0 h-full w-75 p-5 bg-green-400 rounded-xl'>
         <div className='flex justify-between items-center'>
             <h3 className='bg-red-600 text-sm px-3 py-1 rounded'>High</h3>
             <h4 className='text-sm'>20 feb 2024</h4>
@@ -12,7 +12,7 @@ const NewTask = () => {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illum itaque, alias ipsum sunt cum?
         </p>
         <div className='mt-4'>
-            <button>Accept Task</button>
+            <button className='bg-blue-500 mt-26 py-1 px-2 font-semibold rounded active:scale-95 text-sm'>Accept Task</button>
         </div>
       </div>
   )
